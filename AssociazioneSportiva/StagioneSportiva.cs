@@ -15,6 +15,10 @@ namespace AssociazioneSportiva
                 return _anno;
             }
         }
+        public void AggiungiSpecialita(Specialita s)
+        {
+            _specialita.Add(s);
+        }
         public override bool Equals(object? obj)
         {
             if(obj == null) return false;

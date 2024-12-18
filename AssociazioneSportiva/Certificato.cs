@@ -11,7 +11,6 @@ namespace AssociazioneSportiva
 
         public void CaricaFoto(string path)
         {
-
         }
     }
 }

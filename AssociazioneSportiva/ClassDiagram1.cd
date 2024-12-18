@@ -3,7 +3,7 @@
   <Class Name="AssociazioneSportiva.Atleta">
     <Position X="4.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQACgIAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQACgIAAAgAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Atleta.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -18,14 +18,14 @@
     <Position X="7" Y="4.75" Width="1.75" />
     <AssociationLine Name="_certificatoMedico" Type="AssociazioneSportiva.CertificatoMedico" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="7.729" Y="6.367" />
+        <Point X="7.729" Y="7.395" />
         <Point X="7.729" Y="9.55" />
         <Point X="2" Y="9.55" />
-        <Point X="2" Y="9.175" />
+        <Point X="2" Y="8.747" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>CQACgIAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CQACgIAAAgAAEAAAAAAAAQAAAAAAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>Istruttore.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -56,14 +56,14 @@
   <Class Name="AssociazioneSportiva.Tessera">
     <Position X="4.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAgAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAkAAIAAAABAAAAAAAAAAAgAAQ=</HashCode>
       <FileName>Tessera.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="AssociazioneSportiva.CertificatoMedico">
     <Position X="1.25" Y="7.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CertificatoMedico.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -77,7 +77,7 @@
   <Class Name="AssociazioneSportiva.Tesserato">
     <Position X="7.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAgAAAAAAAAQAAAACAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAIAAAAgAAAAAAAAQABAACAAAAAAEAAICAEAEAAAA=</HashCode>
       <FileName>Tesserato.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -98,7 +98,7 @@
   <Class Name="AssociazioneSportiva.StagioneSportiva">
     <Position X="5.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAEAACAAAgAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <HashCode>AQAAAAAAAEAACAAAgAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
       <FileName>StagioneSportiva.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
@@ -108,7 +108,7 @@
   <Class Name="AssociazioneSportiva.Serializzatore">
     <Position X="9" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAIAA=</HashCode>
+      <HashCode>AAAAAAAAAAACAAAABAAAAAAAAAAAAAAAAAAEAAAAIAA=</HashCode>
       <FileName>Serializzatore.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
