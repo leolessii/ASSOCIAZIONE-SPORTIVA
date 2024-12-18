@@ -7,7 +7,6 @@ namespace AssociazioneSportiva
 {
     public class CertificatoMedico:Certificato
     {
-        private DateOnly _dataEmissione;
-        private DateOnly _dataScadenza;
+        
     }
 }

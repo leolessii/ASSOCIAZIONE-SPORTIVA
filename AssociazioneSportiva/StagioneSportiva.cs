@@ -11,9 +11,27 @@ namespace AssociazioneSportiva
         private List<Specialita> _specialita;
         public int Anno
         {
-            get {
-                return _anno;
+            get { return _anno; }
+            set 
+            {
+                if (value <= 0) throw new ArgumentException("anno sbagliato");
+                _anno = value; 
             }
+        }
+
+        public List<Specialita> Specialita
+        {
+            get {  return _specialita;}
+        }
+
+        public StagioneSportiva(int anno)
+        {
+            Anno= anno;
+            _specialita = new List<Specialita>();
+        }
+        public StagioneSportiva(int anno, List<Specialita> specialita):this(anno)
+        {
+            _specialita= specialita;
         }
         public override bool Equals(object? obj)
         {

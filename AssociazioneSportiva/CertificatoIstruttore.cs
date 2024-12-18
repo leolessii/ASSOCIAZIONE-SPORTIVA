@@ -9,9 +9,6 @@ namespace AssociazioneSportiva
     {
         private List<Specialita> _specialita;
 
-        public void SalvaImmagine(string path)
-        {
-
-        }
+        
     }
 }
