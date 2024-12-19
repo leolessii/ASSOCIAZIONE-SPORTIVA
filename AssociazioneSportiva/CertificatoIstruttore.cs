@@ -8,7 +8,26 @@ namespace AssociazioneSportiva
     public class CertificatoIstruttore:Certificato
     {
         private List<Specialita> _specialita;
-
         
+        public List<Specialita> Specialita
+        {
+            get { return _specialita; }
+        }
+
+        public CertificatoIstruttore(DateOnly dataEmissione, DateOnly datascadenza):base(dataEmissione, datascadenza)
+        {
+            _specialita = new List<Specialita>();
+        }
+        public CertificatoIstruttore(DateOnly dataEmissione, DateOnly datascadenza, List<Specialita> specialita):base(dataEmissione, datascadenza)
+        {
+            _specialita = specialita;
+        }
+
+        public override void CaricaFoto(string path, int id)
+        {
+            File.Copy(path, $"CertificatiIstruttore/certificatoIstruttore_{id}");
+            Path = $"CertificatiIstruttore/certificatoIstruttore_{id}";
+        }
+
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\francesco.cangini\\source\\repos\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva\\AssociazioneSportiva.csproj",
+      "projectUniqueName": "C:\\Users\\francesco.cangini\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva\\AssociazioneSportiva.csproj",
       "projectName": "AssociazioneSportiva",
-      "projectPath": "C:\\Users\\francesco.cangini\\source\\repos\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva\\AssociazioneSportiva.csproj",
+      "projectPath": "C:\\Users\\francesco.cangini\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva\\AssociazioneSportiva.csproj",
       "packagesPath": "C:\\Users\\francesco.cangini\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\francesco.cangini\\source\\repos\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva\\obj\\",
+      "outputPath": "C:\\Users\\francesco.cangini\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

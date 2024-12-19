@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\francesco.cangini\\source\\repos\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\WpfAssociazione.csproj": {}
+    "C:\\Users\\francesco.cangini\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\WpfAssociazione.csproj": {}
   },
   "projects": {
-    "C:\\Users\\francesco.cangini\\source\\repos\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\WpfAssociazione.csproj": {
+    "C:\\Users\\francesco.cangini\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\WpfAssociazione.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\francesco.cangini\\source\\repos\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\WpfAssociazione.csproj",
+        "projectUniqueName": "C:\\Users\\francesco.cangini\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\WpfAssociazione.csproj",
         "projectName": "WpfAssociazione",
-        "projectPath": "C:\\Users\\francesco.cangini\\source\\repos\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\WpfAssociazione.csproj",
+        "projectPath": "C:\\Users\\francesco.cangini\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\WpfAssociazione.csproj",
         "packagesPath": "C:\\Users\\francesco.cangini\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\francesco.cangini\\source\\repos\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\obj\\",
+        "outputPath": "C:\\Users\\francesco.cangini\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -9,7 +9,7 @@ namespace AssociazioneSportiva
     {
         private DateOnly _dataEmissione;
         private DateOnly _dataScadenza;
-        private string _path;
+        private string? _path;
 
         public DateOnly DataEmissione
         {
@@ -22,22 +22,19 @@ namespace AssociazioneSportiva
             set { _dataScadenza = value; }
         }
 
-        public string Path
+        public string? Path
         {
             get { return _path; }
             set { _path = value; }
         }
 
-        public Certificato(DateOnly dataEmissione, DateOnly dataScadenza, string path)
+        public Certificato(DateOnly dataEmissione, DateOnly dataScadenza)
         {
             DataEmissione = dataEmissione;
             DataScadenza = dataScadenza;
-            Path = path;
+            Path = null;
         }
 
-        public void CaricaFoto(string path)
-        {
-
-        }
+        public abstract void CaricaFoto(string path, int id);
     }
 }
