@@ -7,6 +7,6 @@ namespace AssociazioneSportiva
 {
     public interface ISalvabile
     {
-        public void Save(IOutput Interface);
+        public void Save(IOutput Interface, Formato formato);
     }
 }

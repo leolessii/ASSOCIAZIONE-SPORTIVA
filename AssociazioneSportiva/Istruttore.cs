@@ -75,6 +75,7 @@ namespace AssociazioneSportiva
             throw new Exception("Stagione non presente");
         }
 
+
         public List<Specialita> GetSpecialitaDiStagione(int anno)
         {
             foreach (StagioneSportiva s in _stagioni)
@@ -88,9 +89,9 @@ namespace AssociazioneSportiva
             throw new Exception("Stagione non presente");
         }
 
-        public void Save(IOutput Interface)
+        public void Save(IOutput Interface, Formato formato)
         {
-            Interface.ScriviIstruttore(this);
+            Interface.ScriviIstruttore(this,formato);
         }
     }
 }

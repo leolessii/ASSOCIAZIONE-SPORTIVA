@@ -7,8 +7,8 @@ namespace AssociazioneSportiva
 {
     public interface IInput
     {
-        public List<Atleta> LeggiAtleti();
-        public List<Istruttore> LeggiIstruttori();
-        public List<Specialita> LeggiSpecialita();
+        public List<Atleta> LeggiAtleti(string path);
+        public List<Istruttore> LeggiIstruttori(string path);
+        public List<Specialita> LeggiSpecialita(string path);
     }
 }

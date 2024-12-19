@@ -74,9 +74,19 @@ namespace AssociazioneSportiva
             throw new Exception("Stagione non presente");
         }
 
-        public void Save(IOutput Interface)
+        public void RimuoviSpecialita(Specialita specialita, int stagione)
         {
-            Interface.ScriviAtleta(this);
+            throw new NotImplementedException();
+        }
+
+        public void RimuoviSpecialita(string nome, int stagione)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Save(IOutput Interface, Formato formato)
+        {
+            Interface.ScriviAtleta(this,formato);
         }
     }
 }

@@ -15,33 +15,63 @@ namespace AssociazioneSportiva
     }
     public class Serializzatore : IOutput
     {
-        private string _path;
-        public void ScriviAtleta(Atleta atleta,Formato formato)
+        public void ScriviAtleta(Atleta atleta, Formato formato)
         {
+            string path = "atleti."+formato.ToString();
             if (formato == Formato.Xaml)
             {
-                StreamWriter file = new StreamWriter(_path + ".xml",true);
+                StreamWriter file = new StreamWriter(path + ".xml",true);
                 XmlSerializer serializer;
                 serializer = new XmlSerializer(typeof(Atleta));
                 serializer.Serialize(file, atleta);
                 file.Close();
             }else if (formato == Formato.Json)
             {
-                StreamWriter file = new StreamWriter(_path + ".json",true);
+                StreamWriter file = new StreamWriter(path + ".json",true);
                 string text = JsonSerializer.Serialize(atleta);
                 file.Write(text);
                 file.Close();
             }   
         }
 
-        public void ScriviIstruttore(Istruttore istruttore)
+        public void ScriviIstruttore(Istruttore istruttore,Formato formato)
         {
-            throw new NotImplementedException();
+            string path = "istruttori." + formato.ToString();
+            if (formato == Formato.Xaml)
+            {
+                StreamWriter file = new StreamWriter(path + ".xml", true);
+                XmlSerializer serializer;
+                serializer = new XmlSerializer(typeof(Atleta));
+                serializer.Serialize(file, istruttore);
+                file.Close();
+            }
+            else if (formato == Formato.Json)
+            {
+                StreamWriter file = new StreamWriter(path + ".json", true);
+                string text = JsonSerializer.Serialize(istruttore);
+                file.Write(text);
+                file.Close();
+            }
         }
 
-        public void ScriviSpecialita(Specialita specialita)
+        public void ScriviSpecialita(Specialita specialita,Formato formato)
         {
-            throw new NotImplementedException();
+            string path = "specialita." + formato.ToString();
+            if (formato == Formato.Xaml)
+            {
+                StreamWriter file = new StreamWriter(path + ".xml", true);
+                XmlSerializer serializer;
+                serializer = new XmlSerializer(typeof(Atleta));
+                serializer.Serialize(file, specialita);
+                file.Close();
+            }
+            else if (formato == Formato.Json)
+            {
+                StreamWriter file = new StreamWriter(path + ".json", true);
+                string text = JsonSerializer.Serialize(specialita);
+                file.Write(text);
+                file.Close();
+            }
         }
     }
 }

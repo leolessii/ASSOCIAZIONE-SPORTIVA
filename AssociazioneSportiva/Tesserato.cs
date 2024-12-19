@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 
 namespace AssociazioneSportiva
-{
-    public abstract class Tesserato
+{-
+    public abstract class Tesserato: IComparable<Tesserato>
     {
         private Tessera _tessera;
         private string _nome;
@@ -61,7 +61,12 @@ namespace AssociazioneSportiva
             }
         }
 
-
-
+        public int CompareTo(Tesserato? other)
+        {
+            if (other == null) return -1;
+            int res = Cognome.CompareTo(other.Cognome);
+            if (res == 0) Nome.CompareTo(other.Nome);
+            return res;
+        }
     }
 }
