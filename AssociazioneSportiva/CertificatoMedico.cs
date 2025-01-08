@@ -5,9 +5,19 @@ using System.Text;
 
 namespace AssociazioneSportiva
 {
-    public class CertificatoMedico:Certificato
+    public class CertificatoMedico : Certificato
     {
-        private DateOnly _dataEmissione;
-        private DateOnly _dataScadenza;
+        public CertificatoMedico(DateOnly dataEmissione, DateOnly dataScadenza) : base(dataEmissione, dataScadenza)
+        {
+        }
+
+        public override void CaricaFoto(string path, string nome)
+        {
+            if(File.Exists($"../../../CertificatiMedici/certificatoMedico_{nome}.png")) {
+                File.Delete($"../../../CertificatiMedici/certificatoMedico_{nome}.png");
+            }
+            File.Copy(path, $"../../../CertificatiMedici/certificatoMedico_{nome}.png");
+            Path = $"../../../CertificatiMedici/certificatoMedico_{nome}.png";
+        }
     }
 }

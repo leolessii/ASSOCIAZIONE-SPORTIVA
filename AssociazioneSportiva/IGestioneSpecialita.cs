@@ -9,6 +9,8 @@ namespace AssociazioneSportiva
     {
         public List<Specialita> GetSpecialitaDiStagione(StagioneSportiva stagione);
         public List<Specialita> GetSpecialitaDiStagione(int anno);
-        public void AggiungiSpecialita(Specialita specialita,int stagione);
+        public void AggiungiSpecialita(Specialita specialita, int stagione);
+        public void RimuoviSpecialita(Specialita specialita, int stagione);
+        public void RimuoviSpecialita(string nome, int stagione);
     }
 }

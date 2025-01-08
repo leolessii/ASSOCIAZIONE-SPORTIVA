@@ -7,7 +7,33 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AggiuntaTesserati.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomeAssociazione.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="specialitaAssociazione.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SpecialitaTesserato.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AggiuntaTesserati.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HomeAssociazione.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="specialitaAssociazione.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SpecialitaTesserato.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfAssociazione.AggiuntaTesserati"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAssociazione"
+        mc:Ignorable="d"
+        Title="AggiuntaTesserati">
+    <Grid Background="#FF232323" Width="1920" Height="1080">
+        <Label x:Name="lbl4_Copia2" Content="Info Tesserato" Margin="995,9,0,1006" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="403"/>
+        <Rectangle HorizontalAlignment="Left" Margin="995,63,0,478" Stroke="Black" Width="403" Fill="#FF757575"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="1007,73,0,948" TextWrapping="Wrap" Text="Nome" Width="379" FontSize="36" FontFamily="Bahnschrift SemiBold" BorderBrush="Black" Background="#FFDC8301" TextAlignment="Center" BorderThickness="3,3,3,3"/>
+        <TextBox x:Name="txtCognome" HorizontalAlignment="Left" Height="46" Margin="1007,123,0,0" TextWrapping="Wrap" Text="Cognome" VerticalAlignment="Top" Width="379" FontSize="36" FontFamily="Bahnschrift SemiBold" BorderBrush="Black" Background="#FFDC8301" TextAlignment="Center" BorderThickness="3,3,3,3"/>
+        <TextBox x:Name="txtNTelefono" HorizontalAlignment="Left" Height="47" Margin="1007,222,0,0" TextWrapping="Wrap" Text="Numero Telefono" VerticalAlignment="Top" Width="379" FontSize="36" FontFamily="Bahnschrift SemiBold" BorderBrush="Black" Background="#FFDC8301" TextAlignment="Center" BorderThickness="3,3,3,3"/>
+        <Button x:Name="btn_ConfermaIscrizione" Content="Conferma Iscrizione" Margin="1007,0,0,491" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="379" Click="btn_ConfermaIscrizione_Click" Height="83" VerticalAlignment="Bottom"/>
+        <Label x:Name="lbl4" Content="Atleta" Margin="8,9,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="296" Height="54" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstAtleti" Margin="8,63,0,297" BorderBrush="Black" BorderThickness="3,3,3,3" FontSize="24" Background="#FF757575" HorizontalAlignment="Left" Width="296"/>
+        <Label x:Name="lbl4_Copia" Content="Istruttore" Margin="342,9,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Width="296" Height="54" VerticalAlignment="Top"/>
+        <Label x:Name="lbl4_Copia1" Content="Amministratori" Margin="667,9,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="296" Height="54" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstIstruttori" Margin="342,63,0,297" BorderBrush="Black" HorizontalAlignment="Left" Width="296" BorderThickness="3,3,3,3" FontSize="24" Background="#FF757575"/>
+        <ListBox x:Name="lstAmministratori" Margin="667,63,0,297" BorderBrush="Black" BorderThickness="3,3,3,3" FontSize="24" Background="#FF757575" HorizontalAlignment="Left" Width="296"/>
+        <ListBox x:Name="lstRuoli" Margin="1007,330,0,608" BorderBrush="Black" BorderThickness="3,3,3,3" FontSize="24" Background="#FFDC8301" HorizontalAlignment="Left" Width="379"/>
+        <Label x:Name="lbl4_Copia3" Content="Ruolo" Margin="1007,272,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="379" Height="54" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Margin="995,642,0,0" Stroke="Black" Width="403" Fill="#FF757575" Height="104" VerticalAlignment="Top"/>
+        <Button x:Name="btn_Exit" Content="Torna Alla Home" Margin="1007,652,0,334" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="379" Click="btn_Home_Click"/>
+        <DatePicker x:Name="txtDataNascita" HorizontalAlignment="Left" Margin="1007,174,0,0" VerticalAlignment="Top" Height="43" Width="391" FontSize="24" Background="#FFDC8301" Foreground="Black"/>
+    </Grid>
+</Window>

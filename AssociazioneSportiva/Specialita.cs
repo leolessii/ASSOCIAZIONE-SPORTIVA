@@ -5,12 +5,35 @@ using System.Text;
 
 namespace AssociazioneSportiva
 {
-    public class Specialita : ISalvabile
+    public class Specialita
     {
         private string _nome;
-        public void Save(IOutput Interface)
+
+        public string Nome
         {
-            throw new NotImplementedException();
+            get { return _nome; }
+            set
+            {
+                if (string.IsNullOrEmpty(value)) throw new ArgumentNullException("Nome invalido");
+                _nome = value;
+            }
         }
+
+        public Specialita(string nome)
+        {
+            Nome = nome;
+        }
+        public override string ToString()
+        {
+            return Nome;
+        }
+        public override bool Equals(object? obj)
+        {
+            if(obj == null) return false;
+            if(!obj.GetType().Equals(typeof(Specialita))) return false;
+            return (obj as Specialita).Nome == Nome;
+        }
+
+
     }
 }

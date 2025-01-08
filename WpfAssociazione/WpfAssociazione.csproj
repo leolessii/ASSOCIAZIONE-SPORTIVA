@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Sport-Main-2.png" />
+    <None Remove="Sport-Main.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssociazioneSportiva\AssociazioneSportiva.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Sport-Main-2.png" />
+    <Resource Include="Sport-Main.jpg" />
+  </ItemGroup>
+
 </Project>

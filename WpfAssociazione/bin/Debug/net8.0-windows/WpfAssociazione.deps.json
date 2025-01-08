@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WpfAssociazione/1.0.0": {
+        "dependencies": {
+          "AssociazioneSportiva": "1.0.0"
+        },
+        "runtime": {
+          "WpfAssociazione.dll": {}
+        }
+      },
+      "AssociazioneSportiva/1.0.0": {
+        "runtime": {
+          "AssociazioneSportiva.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfAssociazione/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AssociazioneSportiva/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

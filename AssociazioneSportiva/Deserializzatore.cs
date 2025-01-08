@@ -7,17 +7,17 @@ namespace AssociazioneSportiva
 {
     public class Deserializzatore : IInput
     {
-        public List<Atleta> LeggiAtleti()
+        public List<Atleta> LeggiAtleti(string path)
         {
             throw new NotImplementedException();
         }
 
-        public List<Istruttore> LeggiIstruttori()
+        public List<Istruttore> LeggiIstruttori(string path)
         {
             throw new NotImplementedException();
         }
 
-        public List<Specialita> LeggiSpecialita()
+        public List<Specialita> LeggiSpecialita(string path)
         {
             throw new NotImplementedException();
         }

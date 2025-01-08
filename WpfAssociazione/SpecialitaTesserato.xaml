@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfAssociazione.SpecialitaTesserato"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAssociazione"
+        mc:Ignorable="d"
+        Title="SpecialitaTesserato">
+    <Grid Background="#FF232323"  Height="1080" Width="1920">
+        <Rectangle Margin="10,10,10,10" Stroke="White"/>
+        <Label x:Name="lbl4_Copia3" Content="Specialità Tesserato" Margin="36,37,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="417" Height="70" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstSpecialitaTesserato" Margin="36,107,0,31" BorderBrush="Black" BorderThickness="3,3,3,3" FontSize="24" Background="#FF757575" HorizontalAlignment="Left" Width="417"/>
+        <Label x:Name="lbl4_Copia" Content="Nuova Specialità" Margin="516,37,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="418" Height="70" VerticalAlignment="Top"/>
+        <Rectangle Margin="516,107,0,0" Stroke="Black" Fill="#FF757575" Height="239" VerticalAlignment="Top" HorizontalAlignment="Left" Width="417" RenderTransformOrigin="0.547,0.406"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="60" Margin="530,136,0,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top" Width="390" FontSize="36" FontFamily="Bahnschrift SemiBold" BorderBrush="Black" Background="#FFDC8301" TextAlignment="Center" BorderThickness="3,3,3,3"/>
+        <Button x:Name="btn_ConfermaSpecialita" Content="Conferma Specialità" Margin="530,0,0,739" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="390" Click="btn_ConfermaSpecialia_Click" Height="108" VerticalAlignment="Bottom"/>
+        <Label x:Name="lbl4_Copia1" Content="Home" Margin="960,37,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="417" Height="70" VerticalAlignment="Top"/>
+        <Rectangle Margin="960,107,0,0" Stroke="Black" Fill="#FF757575" Height="159" VerticalAlignment="Top" HorizontalAlignment="Left" Width="418" RenderTransformOrigin="0.547,0.406"/>
+        <Button x:Name="btn_ConfermaSpecialita_Copia" Content="Torna alla Home" Margin="974,0,0,829" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="390" Click="btn_Home_Click" Height="108" VerticalAlignment="Bottom"/>
+        <Label x:Name="lbl4_Copia2" Content="Rimuovi Specialità " Margin="516,362,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="417" Height="70" VerticalAlignment="Top"/>
+        <Rectangle Margin="516,432,0,0" Stroke="Black" Fill="#FF757575" Height="159" VerticalAlignment="Top" HorizontalAlignment="Left" Width="418" RenderTransformOrigin="0.547,0.406"/>
+        <Button x:Name="btn_ConfermaSpecialita_Copia1" Content="Rimuovi Specialità" Margin="530,0,0,494" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="390" Click="btn_RimuoviSpecialita_Click" Height="108" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\daria\\onedrive\\documenti\\associazione-sportiva\\wpfassociazione\\specialitatesserato.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\daria\\onedrive\\documenti\\associazione-sportiva\\wpfassociazione\\specialitaassociazione.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\daria\\onedrive\\documenti\\associazione-sportiva\\wpfassociazione\\specialitaassociazione.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\daria\\onedrive\\documenti\\associazione-sportiva\\wpfassociazione\\homeassociazione.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\daria\\onedrive\\documenti\\associazione-sportiva\\wpfassociazione\\specialitatesserato.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\daria\\onedrive\\documenti\\associazione-sportiva\\wpfassociazione\\homeassociazione.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeAssociazione.xaml",
+              "DocumentMoniker": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\HomeAssociazione.xaml",
+              "RelativeDocumentMoniker": "..\\WpfAssociazione\\HomeAssociazione.xaml",
+              "ToolTip": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\HomeAssociazione.xaml",
+              "RelativeToolTip": "..\\WpfAssociazione\\HomeAssociazione.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T16:44:27.234Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeAssociazione.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\HomeAssociazione.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WpfAssociazione\\HomeAssociazione.xaml.cs",
+              "ToolTip": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\HomeAssociazione.xaml.cs",
+              "RelativeToolTip": "..\\WpfAssociazione\\HomeAssociazione.xaml.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAArwGYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:24:19.38Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpecialitaTesserato.xaml",
+              "DocumentMoniker": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\SpecialitaTesserato.xaml",
+              "RelativeDocumentMoniker": "..\\WpfAssociazione\\SpecialitaTesserato.xaml",
+              "ToolTip": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\SpecialitaTesserato.xaml",
+              "RelativeToolTip": "..\\WpfAssociazione\\SpecialitaTesserato.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T17:04:19.828Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "specialitaAssociazione.xaml",
+              "DocumentMoniker": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\specialitaAssociazione.xaml",
+              "RelativeDocumentMoniker": "..\\WpfAssociazione\\specialitaAssociazione.xaml",
+              "ToolTip": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\specialitaAssociazione.xaml",
+              "RelativeToolTip": "..\\WpfAssociazione\\specialitaAssociazione.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T17:28:41.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpecialitaTesserato.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\SpecialitaTesserato.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WpfAssociazione\\SpecialitaTesserato.xaml.cs",
+              "ToolTip": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\SpecialitaTesserato.xaml.cs",
+              "RelativeToolTip": "..\\WpfAssociazione\\SpecialitaTesserato.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvykAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:04:20.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "specialitaAssociazione.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\specialitaAssociazione.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WpfAssociazione\\specialitaAssociazione.xaml.cs",
+              "ToolTip": "C:\\Users\\daria\\OneDrive\\Documenti\\ASSOCIAZIONE-SPORTIVA\\WpfAssociazione\\specialitaAssociazione.xaml.cs",
+              "RelativeToolTip": "..\\WpfAssociazione\\specialitaAssociazione.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:15:05.422Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
