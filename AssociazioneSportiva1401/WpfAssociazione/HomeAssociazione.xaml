@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfAssociazione.HomeAssociazione"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAssociazione"
+        mc:Ignorable="d"
+        Title="HomeAssociazione" >
+    <Grid Background="#FF232323" Height="1080" Width="1920">
+        <Rectangle Margin="10,10,10,10" Stroke="White"/>
+        <Rectangle HorizontalAlignment="Left" Margin="370,179,0,30" Stroke="Black" Width="300" Fill="#FF757575"/>
+        <Rectangle Margin="1076,182,0,0" Stroke="Black" Fill="#FF757575" Height="154" VerticalAlignment="Top" HorizontalAlignment="Left" Width="352"/>
+        <Rectangle Margin="1439,178,0,0" Stroke="Black" Fill="#FF757575" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="459"/>
+        <Label x:Name="lbl4" Content="Tesserati" Margin="22,99,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="341" Height="70" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstTesserati" Margin="22,174,0,24" BorderBrush="Black" BorderThickness="3,3,3,3" FontSize="24" Background="#FF757575" HorizontalAlignment="Left" Width="341" SelectionChanged="lstTesserati_SelectionChanged" />
+        <Button x:Name="btn_ModificaAtleta" Content="Modifica Atleta" Margin="1450,206,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="437" Height="108" VerticalAlignment="Top" Click="btn_ModificaAtleta_Click"/>
+        <Button x:Name="btn_ModificaIstruttore" Content="Modifica Istruttore" Margin="1450,318,0,0" BorderBrush="Black" FontFamily="Bahnschrift SemiBold" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalAlignment="Left" Width="437" Height="108" VerticalAlignment="Top" Click="btn_ModificaIstruttore_Click"/>
+        <Label x:Name="lbl4_Copia2" Content="Tesserati" Margin="1433,102,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="465" Height="70" VerticalAlignment="Top"/>
+        <Label x:Name="lbl4_Copia3" Content="Associazione" Margin="1076,102,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="352" Height="70" VerticalAlignment="Top"/>
+        <Label x:Name="lblInfo" Content="Info Tesserato" Margin="368,99,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="304" Height="70" VerticalAlignment="Top"/>
+        <Label x:Name="lbl5" Content="" Margin="380,192,0,42" FontSize="24" BorderThickness="3,3,3,3" Background="{x:Null}" HorizontalAlignment="Left" Width="280"/>
+        <Button x:Name="btn_ModificaSpecialiàAssociazione" Content="Modifica Specialità" Margin="1092,206,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="322" Height="108" VerticalAlignment="Top" Click="btn_ModificaSpecialiàAssociazione_Click"/>
+        <Label x:Name="lblNome" Content="Associazione" Margin="22,24,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="648" Height="70" VerticalAlignment="Top"/>
+        <Button x:Name="btn_ModificaAmministratore" Content="Modifica Amministratore" Margin="1450,432,0,0" BorderBrush="Black" FontFamily="Bahnschrift SemiBold" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalAlignment="Left" Width="437" Height="108" VerticalAlignment="Top" Click="btn_ModificaAmministratore_Click"/>
+
+    </Grid>
+</Window>

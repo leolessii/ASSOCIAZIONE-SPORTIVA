@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfAssociazione.ModificaAtleti"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAssociazione"
+        mc:Ignorable="d"
+        Title="ModificaAtleti" Height="1080" Width="1920">
+    <Grid Background="#FF232323" Width="1920" Margin="0,0,0,-6">
+        <Rectangle Margin="10,20,10,0" Stroke="White"/>
+        <Rectangle Margin="1254,178,0,0" Stroke="Black" Fill="#FF757575" Height="289" VerticalAlignment="Top" HorizontalAlignment="Left" Width="385"/>
+        <Label x:Name="lblNome" Content="Lista Atleti" Margin="22,24,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="764" Height="70" VerticalAlignment="Top"/>
+        <DataGrid x:Name="dgAtleti" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="23,171,1134,45" RenderTransformOrigin="0.5,0.5" Background="#FF757575" BorderBrush="Black" FontSize="24" SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.358"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="5.994"/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+        </DataGrid>
+        <Rectangle Margin="791,700,0,0" Stroke="Black" Fill="#FF757575" Height="281" VerticalAlignment="Top" HorizontalAlignment="Left" Width="458"/>
+        <Button x:Name="btn_RimuoviAtleta" Content="Rimuovi Atleta" Margin="802,723,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="436" Height="108" VerticalAlignment="Top" Click="btn_RimuoviAtleta_Click"/>
+        <Label x:Name="lbl4_Copia2" Content="Modifiche Atleta" Margin="790,625,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="458" Height="70" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCercaAtleta" HorizontalAlignment="Left" Margin="21,103,0,0" TextWrapping="Wrap" Text="🔎 Cerca Atleta " VerticalAlignment="Top" Width="764" Height="70" FontSize="36" Background="#FFDC8301" BorderBrush="Black" BorderThickness="3,3,3,3" TextAlignment="Center" TextChanged="txtCercaAtleta_TextChanged" FontFamily="Bahnschrift SemiBold" GotFocus="txtAtleta_GotFocus"/>
+        <Label x:Name="lbl4_Copia" Content="Crea Atleta" Margin="790,103,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="458" Height="70" VerticalAlignment="Top"/>
+        <Rectangle Margin="791,178,0,0" Stroke="Black" Fill="#FF757575" Height="434" VerticalAlignment="Top" HorizontalAlignment="Left" Width="458"/>
+        <ComboBox x:Name="CBSpecialità" HorizontalAlignment="Left" Height="70" Margin="1266,376,0,0" VerticalAlignment="Top" Width="358" SelectionChanged="ComboBox_SelectionChanged" Background="#FFDC8301" BorderBrush="Black" FontSize="24"/>
+        <Button x:Name="btn_ConfermaIscrizione" Content="Conferma Iscrizione" Margin="801,0,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="437" Height="108" VerticalAlignment="Center" Click="btn_ConfermaIscrizione_Click"/>
+        <Label x:Name="lbl4_Copia1" Content="Specialità Atleta" Margin="1253,103,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="386" Height="70" VerticalAlignment="Top"/>
+        <Label x:Name="lbl4_Copia3" Content="Lista Specialità" Margin="1266,301,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="358" Height="70" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNome" Margin="802,186,0,0" TextWrapping="Wrap" Text="Nome" FontSize="40" Background="#FFF79300" BorderBrush="Black" TextAlignment="Center" FontFamily="Bahnschrift SemiBold"  GotFocus="txtAtleta_GotFocus" HorizontalAlignment="Left" Width="436" Height="62" VerticalAlignment="Top" BorderThickness="3,3,3,3"/>
+        <TextBox x:Name="txtCognome" Margin="802,253,0,0" TextWrapping="Wrap" Text="Cognome" FontSize="40" Background="#FFF79300" BorderBrush="Black" TextAlignment="Center" FontFamily="Bahnschrift SemiBold"  GotFocus="txtAtleta_GotFocus" HorizontalAlignment="Left" Width="437" Height="62" VerticalAlignment="Top" BorderThickness="3,3,3,3"/>
+        <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" Margin="801,320,0,0" VerticalAlignment="Top" Height="62" Width="437" BorderBrush="Black" FontSize="36" Foreground="Black"/>
+        <TextBox x:Name="txtNumerotelefono" Margin="801,387,0,0" TextWrapping="Wrap" Text="Telefono" FontSize="40" Background="#FFF79300" BorderBrush="Black" TextAlignment="Center" FontFamily="Bahnschrift SemiBold" GotFocus="txtAtleta_GotFocus" HorizontalAlignment="Left" Width="437" Height="62" VerticalAlignment="Top" BorderThickness="3,3,3,3"/>
+        <Button x:Name="btn_ConfermaSpecialita" Content="Conferma Specialità" Margin="1266,186,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="358" Height="108" VerticalAlignment="Top" Click="btn_ConfermaSpecialita_Click"/>
+        <Button x:Name="btn_AggiungiCertificato" Content="Aggiungi Certificato" Margin="802,837,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="436" Height="108" VerticalAlignment="Top" Click="btn_AggiungiCertificato_Click"/>
+        <Label x:Name="lbl4_Copia4" Content="Home" Margin="1644,103,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="256" Height="70" VerticalAlignment="Top"/>
+        <Rectangle Margin="1644,178,0,0" Stroke="Black" Fill="#FF757575" Height="131" VerticalAlignment="Top" HorizontalAlignment="Left" Width="256" RenderTransformOrigin="0.547,0.406"/>
+        <Button x:Name="btn_Home" Content="Home" Margin="1656,186,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="234" Click="btn_Home_Click" Height="108" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
