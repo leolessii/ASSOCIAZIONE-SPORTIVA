@@ -54,3 +54,15 @@ C:\Users\loren\Downloads\Associazione_V2_Codice_WPF\Associazione0108\Associazion
 C:\Users\loren\Downloads\Associazione_V2_Codice_WPF\Associazione0108\AssociazioneSportiva\bin\Debug\net8.0\AssociazioneSportiva.dll
 C:\Users\loren\Downloads\Associazione_V2_Codice_WPF\Associazione0108\AssociazioneSportiva\bin\Debug\net8.0\AssociazioneSportiva.pdb
 C:\Users\loren\Downloads\Associazione_V2_Codice_WPF\Associazione0108\AssociazioneSportiva\obj\Debug\net8.0\ref\AssociazioneSportiva.dll
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\bin\Debug\net8.0\AssociazioneSportiva.deps.json
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\bin\Debug\net8.0\AssociazioneSportiva.dll
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\bin\Debug\net8.0\AssociazioneSportiva.pdb
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\obj\Debug\net8.0\AssociazioneSportiva.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\obj\Debug\net8.0\AssociazioneSportiva.AssemblyInfoInputs.cache
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\obj\Debug\net8.0\AssociazioneSportiva.AssemblyInfo.cs
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\obj\Debug\net8.0\AssociazioneSportiva.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\obj\Debug\net8.0\AssociazioneSportiva.sourcelink.json
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\obj\Debug\net8.0\AssociazioneSportiva.dll
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\obj\Debug\net8.0\refint\AssociazioneSportiva.dll
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\obj\Debug\net8.0\AssociazioneSportiva.pdb
+C:\Users\Leonardo.Lessi\Documents\ASSOCIAZIONE-SPORTIVA\AssociazioneSportiva1401\AssociazioneSportiva\obj\Debug\net8.0\ref\AssociazioneSportiva.dll

@@ -8,9 +8,16 @@ namespace AssociazioneSportiva
 {
     public class Deserializzatore : IInput
     {
-        public List<Atleta> LeggiAtleti(string path)
+        public List<Atleta>? LeggiAtleti()
         {
-            throw new NotImplementedException();
+            if (File.Exists("atleti.xml"))
+            {
+                string text;
+                StreamReader sr = new StreamReader("atleti.xml"); text = sr.ReadToEnd(); sr.Close();
+                List<Atleta>? dati = JsonSerializer.Deserialize<List<Atleta>>(text);
+                return dati;
+            }
+            return null;
         }
 
         public List<Istruttore> LeggiIstruttori(string path)

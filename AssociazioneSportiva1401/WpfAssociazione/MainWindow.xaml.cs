@@ -69,6 +69,27 @@ namespace WpfAssociazione
                 return null;
             }
         }
+
+        private void LeggiAlteti()
+        {
+            
+            try
+            {
+                Deserializzatore d = new Deserializzatore();
+                List<Atleta>? atleti = d.LeggiAtleti();
+                if(atleti != null)
+                {
+                    for(int i = 0; i < atleti.Count; i++)
+                    {
+                        associazione.Tesserati.Add(atleti[i]);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+             
+            }
+        }
         private void ScriviImpostazioni()
         {
             try
@@ -81,6 +102,7 @@ namespace WpfAssociazione
                 MessageBox.Show(ex.Message);
             }
         }
+
         private void VaAHome()
         {
             HomeAssociazione hm = new HomeAssociazione(associazione);

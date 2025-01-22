@@ -23,6 +23,7 @@ namespace WpfAssociazione
     {
         public Associazione associazione;
         public Tesserato? tesseratoSelezionato;
+        public PeriodicTimer pt;
         public HomeAssociazione(Associazione a)
         {
             InitializeComponent();
@@ -32,6 +33,13 @@ namespace WpfAssociazione
             lblNome.Content = "Associazione" + " " + associazione.Nome;
             lstTesserati.ItemsSource = associazione.Tesserati;
             tesseratoSelezionato = null;
+            TimeSpan s = new TimeSpan(0, 2, 0);
+            pt = new PeriodicTimer(s);
+            ValueTask<bool> b = new ValueTask<bool>(true);
+            if (pt.WaitForNextTickAsync() == b)
+            {
+                LeggiImpostazioni();
+            }
         }
         private void AggiornaListe()
         {
@@ -76,6 +84,19 @@ namespace WpfAssociazione
             ModificaAmministratore mam = new ModificaAmministratore(associazione);
             mam.Show();
             this.Close();
+        }
+
+        private Associazione? LeggiImpostazioni()
+        {
+            try
+            {
+                Deserializzatore d = new Deserializzatore();
+                return d.LeggiAssociazione();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
     }
 }

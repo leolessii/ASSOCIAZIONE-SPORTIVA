@@ -17,7 +17,7 @@ namespace AssociazioneSportiva
     {
         public void ScriviAtleta(Atleta atleta, Formato formato)
         {
-            string path = "atleti." + formato.ToString();
+            string path = "atleti" + formato.ToString();
             if (formato == Formato.Xaml)
             {
                 StreamWriter file = new StreamWriter(path + ".xml", true);
@@ -37,7 +37,7 @@ namespace AssociazioneSportiva
 
         public void ScriviIstruttore(Istruttore istruttore, Formato formato)
         {
-            string path = "istruttori." + formato.ToString();
+            string path = "istruttori" + formato.ToString();
             if (formato == Formato.Xaml)
             {
                 StreamWriter file = new StreamWriter(path + ".xml", true);
@@ -57,7 +57,7 @@ namespace AssociazioneSportiva
 
         public void ScriviSpecialita(Specialita specialita, Formato formato)
         {
-            string path = "specialita." + formato.ToString();
+            string path = "specialita" + formato.ToString();
             if (formato == Formato.Xaml)
             {
                 StreamWriter file = new StreamWriter(path + ".xml", true);

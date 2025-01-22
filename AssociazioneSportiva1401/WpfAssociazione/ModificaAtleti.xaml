@@ -10,7 +10,7 @@
         <Rectangle Margin="10,20,10,0" Stroke="White"/>
         <Rectangle Margin="1254,178,0,0" Stroke="Black" Fill="#FF757575" Height="289" VerticalAlignment="Top" HorizontalAlignment="Left" Width="385"/>
         <Label x:Name="lblNome" Content="Lista Atleti" Margin="22,24,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="764" Height="70" VerticalAlignment="Top"/>
-        <DataGrid x:Name="dgAtleti" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="23,171,1134,45" RenderTransformOrigin="0.5,0.5" Background="#FF757575" BorderBrush="Black" FontSize="24" SelectionChanged="DataGrid_SelectionChanged">
+        <DataGrid x:Name="dgAtleti" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="23,171,1134,45" RenderTransformOrigin="0.5,0.5" Background="#FF757575" BorderBrush="Black" FontSize="24">
             <DataGrid.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

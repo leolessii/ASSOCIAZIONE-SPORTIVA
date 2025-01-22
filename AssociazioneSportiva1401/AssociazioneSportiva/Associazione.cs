@@ -63,6 +63,10 @@ namespace AssociazioneSportiva
             _tesserati = tesserati;
             _specialita = specialita;
         }
+        public Associazione()
+        {
+            
+        }
         /// <summary>
         /// Ti restituisce il tesserato che ha l'id dato
         /// </summary>
