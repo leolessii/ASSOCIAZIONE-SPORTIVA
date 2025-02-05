@@ -39,5 +39,9 @@
         <Label x:Name="lbl4_Copia4" Content="Home" Margin="1644,103,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="256" Height="70" VerticalAlignment="Top"/>
         <Rectangle Margin="1644,178,0,0" Stroke="Black" Fill="#FF757575" Height="131" VerticalAlignment="Top" HorizontalAlignment="Left" Width="256" RenderTransformOrigin="0.547,0.406"/>
         <Button x:Name="btn_Home" Content="Home" Margin="1656,186,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="234" Click="btn_Home_Click" Height="108" VerticalAlignment="Top"/>
+        <Label x:Name="lbl4_Copia5" Content="" Margin="1254,481,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="386" Height="70" VerticalAlignment="Top"/>
+        <Rectangle Margin="1255,556,0,0" Stroke="Black" Fill="#FF757575" Height="139" VerticalAlignment="Top" HorizontalAlignment="Left" Width="385"/>
+        <Button x:Name="btn_RimuoviAtleta_Copia" Content="Rimuovi Atleta" Margin="802,723,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="436" Height="108" VerticalAlignment="Top" Click="btn_RimuoviAtleta_Click"/>
+        <Button x:Name="btn_InviaDati" Content="Invia Dati" Margin="1266,574,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="358" Height="108" VerticalAlignment="Top" Click="btn_InviaDati_Click"/>
     </Grid>
 </Window>

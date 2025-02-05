@@ -3,40 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\atleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:atleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\deserializzatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:deserializzatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\wpfassociazione\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\tesseratospecializzato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:tesseratospecializzato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\wpfassociazione\\homeassociazione.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\serializzatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:serializzatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\wpfassociazione\\modificaatleti.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\tessera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:tessera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\atleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:atleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\ioutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:ioutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\wpfassociazione\\modificaatleti.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\tesserato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:tesserato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\associazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:associazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\wpfassociazione\\modificaatleti.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\wpfassociazione\\modificaatleti.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\wpfassociazione\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\deserializzatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:deserializzatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\associazionesportiva\\iinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A73EB2AE-5253-4A85-A34C-EC9BDC74A7E2}|AssociazioneSportiva.csproj|solutionrelative:iinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\wpfassociazione\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{648CA855-87B7-4FD6-B54B-EE90C6EA6AA3}|..\\WpfAssociazione\\WpfAssociazione.csproj|c:\\users\\leonardo.lessi\\documents\\associazione-sportiva\\associazionesportiva1401\\wpfassociazione\\homeassociazione.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
@@ -49,76 +61,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TesseratoSpecializzato.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\TesseratoSpecializzato.cs",
-              "RelativeDocumentMoniker": "TesseratoSpecializzato.cs",
-              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\TesseratoSpecializzato.cs",
-              "RelativeToolTip": "TesseratoSpecializzato.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAJAAAA",
+              "DocumentIndex": 6,
+              "Title": "Tessera.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Tessera.cs",
+              "RelativeDocumentMoniker": "Tessera.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Tessera.cs",
+              "RelativeToolTip": "Tessera.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwC8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T08:46:00.232Z",
+              "WhenOpened": "2025-02-05T07:58:50.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "IOutput.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\IOutput.cs",
+              "RelativeDocumentMoniker": "IOutput.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\IOutput.cs",
+              "RelativeToolTip": "IOutput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:48:46.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tesserato.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Tesserato.cs",
+              "RelativeDocumentMoniker": "Tesserato.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Tesserato.cs",
+              "RelativeToolTip": "Tesserato.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:15:49.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Atleta.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Atleta.cs",
               "RelativeDocumentMoniker": "Atleta.cs",
               "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Atleta.cs",
               "RelativeToolTip": "Atleta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T08:45:30.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Associazione.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Associazione.cs",
-              "RelativeDocumentMoniker": "Associazione.cs",
-              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Associazione.cs",
-              "RelativeToolTip": "Associazione.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwEMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T08:44:37.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IInput.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\IInput.cs",
-              "RelativeDocumentMoniker": "IInput.cs",
-              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\IInput.cs",
-              "RelativeToolTip": "IInput.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T08:26:56.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ModificaAtleti.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\ModificaAtleti.xaml.cs",
               "RelativeDocumentMoniker": "..\\WpfAssociazione\\ModificaAtleti.xaml.cs",
               "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\ModificaAtleti.xaml.cs",
               "RelativeToolTip": "..\\WpfAssociazione\\ModificaAtleti.xaml.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAswF0AAABQAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAawGYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T07:47:43.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ModificaAtleti.xaml",
               "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\ModificaAtleti.xaml",
               "RelativeDocumentMoniker": "..\\WpfAssociazione\\ModificaAtleti.xaml",
@@ -130,33 +142,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Deserializzatore.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Deserializzatore.cs",
-              "RelativeDocumentMoniker": "Deserializzatore.cs",
-              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Deserializzatore.cs",
-              "RelativeToolTip": "Deserializzatore.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCoAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T07:41:23.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Serializzatore.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Serializzatore.cs",
               "RelativeDocumentMoniker": "Serializzatore.cs",
               "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Serializzatore.cs",
               "RelativeToolTip": "Serializzatore.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAQAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwDYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T07:41:03.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WpfAssociazione\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\WpfAssociazione\\MainWindow.xaml.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:35:59.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TesseratoSpecializzato.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\TesseratoSpecializzato.cs",
+              "RelativeDocumentMoniker": "TesseratoSpecializzato.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\TesseratoSpecializzato.cs",
+              "RelativeToolTip": "TesseratoSpecializzato.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:46:00.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Deserializzatore.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Deserializzatore.cs",
+              "RelativeDocumentMoniker": "Deserializzatore.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Deserializzatore.cs",
+              "RelativeToolTip": "Deserializzatore.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:41:23.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeAssociazione.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\HomeAssociazione.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WpfAssociazione\\HomeAssociazione.xaml.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\HomeAssociazione.xaml.cs",
+              "RelativeToolTip": "..\\WpfAssociazione\\HomeAssociazione.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:35:42.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "HomeAssociazione.xaml",
               "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\HomeAssociazione.xaml",
               "RelativeDocumentMoniker": "..\\WpfAssociazione\\HomeAssociazione.xaml",
@@ -168,28 +219,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "..\\WpfAssociazione\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\MainWindow.xaml",
-              "RelativeToolTip": "..\\WpfAssociazione\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-22T07:36:00.89Z",
-              "EditorCaption": ""
+              "DocumentIndex": 12,
+              "Title": "IInput.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\IInput.cs",
+              "RelativeDocumentMoniker": "IInput.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\IInput.cs",
+              "RelativeToolTip": "IInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:26:56.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "..\\WpfAssociazione\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\WpfAssociazione\\MainWindow.xaml.cs",
-              "RelativeToolTip": "..\\WpfAssociazione\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwFMAAAA+AAAA",
+              "DocumentIndex": 11,
+              "Title": "Associazione.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Associazione.cs",
+              "RelativeDocumentMoniker": "Associazione.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\ASSOCIAZIONE-SPORTIVA\\AssociazioneSportiva1401\\AssociazioneSportiva\\Associazione.cs",
+              "RelativeToolTip": "Associazione.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwEMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T07:35:59.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T08:44:37.239Z"
             }
           ]
         }

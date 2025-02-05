@@ -29,6 +29,7 @@ namespace WpfAssociazione
             if (associazioneLetta != null)
             {
                 associazione = associazioneLetta;
+                LeggiAlteti();
                 VaAHome();
             }
         }

@@ -20,6 +20,15 @@ namespace AssociazioneSportiva
             DataNascita = dataNascita;
             _tessera = tessera;
         }
+
+        public Tesserato()
+        {
+            Nome = "nome";
+            Cognome = "cognome";
+            NumeroTelefono = "numeroTelefono";
+            DataNascita = DateOnly.MinValue;
+            _tessera = null;
+        }
         public Tessera Tessera
         {
             get { return _tessera; }

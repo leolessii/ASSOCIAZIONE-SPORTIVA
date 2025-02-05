@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Xml.Serialization;
 
 namespace AssociazioneSportiva
 {
@@ -10,11 +11,12 @@ namespace AssociazioneSportiva
     {
         public List<Atleta>? LeggiAtleti()
         {
-            if (File.Exists("atleti.xml"))
+            if (File.Exists("Atleti.xml"))
             {
                 string text;
-                StreamReader sr = new StreamReader("atleti.xml"); text = sr.ReadToEnd(); sr.Close();
-                List<Atleta>? dati = JsonSerializer.Deserialize<List<Atleta>>(text);
+                StreamReader sr = new StreamReader("Atleti.xml"); text = sr.ReadToEnd(); sr.Close();
+                XmlSerializer xmls = new XmlSerializer(typeof(Atleta));
+                List<Atleta>? dati = XmlSerializer.Deserialize<List<Atleta>>(text);
                 return dati;
             }
             return null;

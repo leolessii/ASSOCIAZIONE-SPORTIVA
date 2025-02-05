@@ -11,7 +11,7 @@ namespace AssociazioneSportiva
     {
         private int _code;
         private DateOnly _dataPrimaIscrizione;
-        private List<DateOnly> _rinnovi;
+        private DateOnly _rinnovo;
         public int Code
         {
             get { return _code; }
@@ -29,23 +29,23 @@ namespace AssociazioneSportiva
                 _dataPrimaIscrizione = value;
             }
         }
-        public List<DateOnly> Rinnovi
+        public DateOnly Rinnovo
         {
-            get { return _rinnovi; }
+            get { return _rinnovo; }
             private set
             {
-                _rinnovi = value;
+                _rinnovo = value;
             }
         }
-        public Tessera(int code, DateOnly data, List<DateOnly> rinnovi) : this(code, data)
+        public Tessera(int code, DateOnly data, DateOnly rinnovo) : this(code, data)
         {
-            Rinnovi = rinnovi;
+            Rinnovo = rinnovo;
         }
         public Tessera(int code, DateOnly data)
         {
             Code = code;
             DataPrimaIscrizione = data;
-            _rinnovi = new List<DateOnly>();
+            _rinnovo = new DateOnly();
         }
         public Tessera()
         {

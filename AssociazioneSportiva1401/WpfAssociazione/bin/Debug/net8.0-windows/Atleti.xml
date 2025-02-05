@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<associazione nome="a">
+  <Atleta IdTessera="0">
+    <Nome>a</Nome>
+    <Cognome>a</Cognome>
+    <Data_Nascita>15/08/2023</Data_Nascita>
+    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+  </Atleta>
+</associazione>

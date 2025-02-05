@@ -21,6 +21,11 @@ namespace AssociazioneSportiva
             _certificatoMedico = null;
             _stagioni = new List<StagioneSportiva>();
         }
+        public TesseratoSpecializzato()
+        {
+             _certificatoMedico = null;
+            _stagioni = new List<StagioneSportiva>();
+        }
         public CertificatoMedico? CertificatoMedico
         {
             get { return _certificatoMedico; }

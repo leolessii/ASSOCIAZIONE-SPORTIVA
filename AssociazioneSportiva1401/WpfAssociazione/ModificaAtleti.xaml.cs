@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Xml.Serialization;
 
 namespace WpfAssociazione
 {
@@ -89,18 +90,12 @@ namespace WpfAssociazione
 
         private void btn_ConfermaIscrizione_Click(object sender, RoutedEventArgs e)
         {
-            int year = Convert.ToInt32(DatePicker.Text.Split('/')[0]);
-            int month = Convert.ToInt32(DatePicker.Text.Split('/')[1].Split('/')[0]);
-            int day = Convert.ToInt32(DatePicker.Text.Split('/')[1].Split('/')[0]);
-            DateOnly d = new DateOnly(year, month, day);
+            DateOnly anno = DateOnly.FromDateTime(Convert.ToDateTime(DatePicker.SelectedDate));
             Tessera t = new Tessera();
-            Atleta a = new Atleta(txtNome.Text, txtCognome.Text, txtNumerotelefono.Text, d, t);
+            Atleta a = new Atleta(txtNome.Text, txtCognome.Text, txtNumerotelefono.Text, anno, t);
             associazione.Tesserati.Add(a);
             dgAtleti.ItemsSource = null;
             dgAtleti.ItemsSource = associazione.RestituisciAtleti();
-
-            Serializzatore s = new Serializzatore();
-            s.ScriviAtleta(a, Formato.Xaml);
         }
 
         private void btn_AggiungiCertificato_Click(object sender, RoutedEventArgs e)
@@ -112,7 +107,14 @@ namespace WpfAssociazione
         {
             if(dgAtleti.SelectedItem != null && CBSpecialità.SelectedItem != null)
             {
-                
+                foreach(Atleta a in associazione.RestituisciAtleti())
+                {
+                    if(a == dgAtleti.SelectedItem)
+                    {
+                        DateTime dateTime = DateTime.Now;
+                        a.AggiungiSpecialita(CBSpecialità.SelectedItem as Specialita, (int)dateTime.Year);
+                    }
+                }
             }
         }
 
@@ -125,6 +127,12 @@ namespace WpfAssociazione
 
         private void txtAtleta_GotFocus(object sender, RoutedEventArgs e)
         {
+        }
+
+        private void btn_InviaDati_Click(object sender, RoutedEventArgs e)
+        {
+            Serializzatore s = new Serializzatore();
+            s.ScriviAtleti(Formato.Xaml, associazione);
         }
     }
 }

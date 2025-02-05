@@ -7,7 +7,7 @@ namespace AssociazioneSportiva
 {
     public interface IOutput
     {
-        public void ScriviAtleta(Atleta atleta, Formato formato);
+        public void ScriviAtleti(Formato formato, Associazione associazione);
         public void ScriviIstruttore(Istruttore istruttore, Formato formato);
         public void ScriviSpecialita(Specialita specialita, Formato formato);
     }

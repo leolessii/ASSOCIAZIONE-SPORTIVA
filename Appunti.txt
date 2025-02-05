@@ -1,3 +1,0 @@
-1- Fare in modo che le specialità possano essere aggiunte solo all'associazione e che l'atleta e l'istruttore possano scegliere di farsi aggiungere solo quelle disponibili all'associazione.
-2- mettere un periodic timer nell'home che ogni tot tempo (2 min) salva automaticamente i dati.
-3- fare una schermata nella quale, in caso di accesso già fatto, ti permetta di scegliere le tue associazioni sportive.
