@@ -14,9 +14,9 @@ namespace AssociazioneSportiva
             if (File.Exists("Atleti.xml"))
             {
                 string text;
-                StreamReader sr = new StreamReader("Atleti.xml"); text = sr.ReadToEnd(); sr.Close();
+                StreamReader sr = new StreamReader("Atleti.xml");
                 XmlSerializer xmls = new XmlSerializer(typeof(Atleta));
-                List<Atleta>? dati = XmlSerializer.Deserialize<List<Atleta>>(text);
+                List<Atleta> dati = (List<Atleta>)xmls.Deserialize(sr)!;
                 return dati;
             }
             return null;

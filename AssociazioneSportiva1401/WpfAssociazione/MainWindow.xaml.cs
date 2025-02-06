@@ -55,7 +55,7 @@ namespace WpfAssociazione
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                System.Windows.Forms.MessageBox.Show(ex.Message);
             }
         }
         private Associazione? LeggiImpostazioni()
@@ -100,7 +100,7 @@ namespace WpfAssociazione
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                System.Windows.Forms.MessageBox.Show(ex.Message);
             }
         }
 

@@ -1,4 +1,5 @@
 ﻿using AssociazioneSportiva;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,7 +48,7 @@ namespace WpfAssociazione
                 else
                 {
                     string s = "Nessuna Corrispondenza";
-                    MessageBox.Show(s);
+                    System.Windows.Forms.MessageBox.Show(s);
                     txtCercaAtleta.Text = cerca;
                     dgAtleti.ItemsSource = null;
                     dgAtleti.ItemsSource = associazione.RestituisciAtleti();
@@ -100,7 +101,24 @@ namespace WpfAssociazione
 
         private void btn_AggiungiCertificato_Click(object sender, RoutedEventArgs e)
         {
-
+            if(dgAtleti.SelectedItem != null)
+            {
+                OpenFolderDialog dialog = new OpenFolderDialog();
+                string path = dialog.ShowDialog().ToString();
+                if(!string.IsNullOrEmpty(path))
+                {
+                    foreach (Atleta a in associazione.RestituisciAtleti())
+                    {
+                        if (a == dgAtleti.SelectedItem)
+                        {
+                            a.CertificatoMedico!.CaricaFoto(path, a.Nome, associazione.PercorsoCertificati);
+                        }
+                    }
+                }
+            }else
+            {
+                System.Windows.Forms.MessageBox.Show("Atleta non selezionato");
+            }
         }
 
         private void btn_ConfermaSpecialita_Click(object sender, RoutedEventArgs e)

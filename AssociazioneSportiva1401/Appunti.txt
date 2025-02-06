@@ -1,8 +1,2 @@
-- finire metodo aggiungi specialità in modifica atleti
-- finire metodo aggiungi certificato in modifica atleti
-- gestisci errore no data in conferma iscrizione atleta
-- sia possibile, attraverso un bottone o un menu esportare i dati degli atleti per poterli inviare alla federazione sportiva. Il file deve avere la seguente struttura:
-<?xml version="1.0"?>
-<associazione>
-<atleta idTessera="bk101">
-<nome> Matthew</nome><cognome>Giovannini</cognome><data_nascita>2000-10-01</data_nascita><data_rinnovo>2000-10-01</data_rinnovo></atleta></associazione>
+
+
