@@ -25,6 +25,7 @@ namespace WpfAssociazione
         public Associazione associazione;
         public Specialita s;
         string cerca;
+        int counter = -1;
         public ModificaAtleti(Associazione a)
         {
             InitializeComponent();
@@ -92,7 +93,8 @@ namespace WpfAssociazione
         private void btn_ConfermaIscrizione_Click(object sender, RoutedEventArgs e)
         {
             DateOnly anno = DateOnly.FromDateTime(Convert.ToDateTime(DatePicker.SelectedDate));
-            Tessera t = new Tessera();
+            counter += 1;
+            Tessera t = new Tessera(counter);
             Atleta a = new Atleta(txtNome.Text, txtCognome.Text, txtNumerotelefono.Text, anno, t);
             associazione.Tesserati.Add(a);
             dgAtleti.ItemsSource = null;
