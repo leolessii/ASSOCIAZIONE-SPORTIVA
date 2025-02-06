@@ -4,60 +4,60 @@
     <Nome>Giovanni</Nome>
     <Cognome>Leveghi</Cognome>
     <Data_Nascita>10/01/2007</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
   <Atleta IdTessera="AA01">
     <Nome>Martino</Nome>
     <Cognome>Leveghi</Cognome>
     <Data_Nascita>10/01/2007</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
   <Atleta IdTessera="AA02">
     <Nome>Federico</Nome>
     <Cognome>Prati</Cognome>
     <Data_Nascita>19/11/2007</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
   <Atleta IdTessera="AA03">
     <Nome>Fabio</Nome>
     <Cognome>Martini</Cognome>
     <Data_Nascita>19/01/2008</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
   <Atleta IdTessera="AA04">
     <Nome>Alberto</Nome>
     <Cognome>Penni</Cognome>
     <Data_Nascita>20/04/2010</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
   <Atleta IdTessera="AA05">
     <Nome>Francesco</Nome>
     <Cognome>Farrini</Cognome>
     <Data_Nascita>23/04/1997</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
   <Atleta IdTessera="AA06">
     <Nome>Diego</Nome>
     <Cognome>Parti</Cognome>
     <Data_Nascita>11/09/2005</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
   <Atleta IdTessera="AA07">
     <Nome>Sebastiano</Nome>
     <Cognome>Trifoli</Cognome>
     <Data_Nascita>12/07/2006</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
   <Atleta IdTessera="AA08">
     <Nome>Nicole</Nome>
     <Cognome>Pizzi</Cognome>
     <Data_Nascita>15/12/2006</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
   <Atleta IdTessera="AA09">
     <Nome>Bianca</Nome>
     <Cognome>Alberti</Cognome>
     <Data_Nascita>30/11/2005</Data_Nascita>
-    <Data_Rinnovo>01/01/0001</Data_Rinnovo>
+    <Data_Rinnovo>06/02/2026</Data_Rinnovo>
   </Atleta>
 </associazione>

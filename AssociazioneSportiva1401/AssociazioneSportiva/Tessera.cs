@@ -53,8 +53,7 @@ namespace AssociazioneSportiva
         {
             Code = code;
             DataPrimaIscrizione = DateOnly.FromDateTime(DateTime.Now);
-            DateTime dt = DateTime.Now.AddYears(1);
-            _rinnovo = DateOnly.FromDateTime(dt);
+            _rinnovo = DateOnly.FromDateTime(DateTime.Now);
         }
         public Tessera()
         {
