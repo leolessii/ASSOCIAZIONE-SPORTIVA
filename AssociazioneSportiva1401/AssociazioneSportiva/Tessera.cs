@@ -9,15 +9,15 @@ namespace AssociazioneSportiva
 {
     public class Tessera
     {
-        private int _code;
+        private string _code;
         private DateOnly _dataPrimaIscrizione;
         private DateOnly _rinnovo;
-        public int Code
+        public string Code
         {
             get { return _code; }
             private set
             {
-                if (value <= 0) throw new ArgumentException("");
+                if (string.IsNullOrEmpty(value)) throw new ArgumentException("");
                 _code = value;
             }
         }
@@ -37,11 +37,11 @@ namespace AssociazioneSportiva
                 _rinnovo = value;
             }
         }
-        public Tessera(int code, DateOnly data, DateOnly rinnovo) : this(code, data)
+        public Tessera(string code, DateOnly data, DateOnly rinnovo) : this(code, data)
         {
             Rinnovo = rinnovo;
         }
-        public Tessera(int code, DateOnly data)
+        public Tessera(string code, DateOnly data)
         {
             Code = code;
             DataPrimaIscrizione = data;
@@ -49,7 +49,7 @@ namespace AssociazioneSportiva
             _rinnovo = DateOnly.FromDateTime(dt);
         }
 
-        public Tessera(int code)
+        public Tessera(string code)
         {
             Code = code;
             DataPrimaIscrizione = DateOnly.FromDateTime(DateTime.Now);

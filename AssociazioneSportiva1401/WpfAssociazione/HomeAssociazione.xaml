@@ -6,22 +6,26 @@
         xmlns:local="clr-namespace:WpfAssociazione"
         mc:Ignorable="d"
         Title="HomeAssociazione" >
-    <Grid Background="#FF232323" Height="1080" Width="1920">
+    <Grid Background="#FF232323" Height="800" Width="1270">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="360*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         <Rectangle Margin="10,10,10,10" Stroke="White"/>
         <Rectangle HorizontalAlignment="Left" Margin="370,179,0,30" Stroke="Black" Width="300" Fill="#FF757575"/>
-        <Rectangle Margin="1076,182,0,0" Stroke="Black" Fill="#FF757575" Height="154" VerticalAlignment="Top" HorizontalAlignment="Left" Width="352"/>
-        <Rectangle Margin="1439,178,0,0" Stroke="Black" Fill="#FF757575" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="459"/>
+        <Rectangle Margin="684,95,0,0" Stroke="Black" Fill="#FF757575" Height="119" VerticalAlignment="Top" HorizontalAlignment="Left" Width="238"/>
+        <Rectangle Margin="930,92,0,0" Stroke="Black" Fill="#FF757575" Height="308" VerticalAlignment="Top" HorizontalAlignment="Left" Width="311"/>
         <Label x:Name="lbl4" Content="Tesserati" Margin="22,99,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="341" Height="70" VerticalAlignment="Top"/>
         <ListBox x:Name="lstTesserati" Margin="22,174,0,24" BorderBrush="Black" BorderThickness="3,3,3,3" FontSize="24" Background="#FF757575" HorizontalAlignment="Left" Width="341" SelectionChanged="lstTesserati_SelectionChanged" />
-        <Button x:Name="btn_ModificaAtleta" Content="Modifica Atleta" Margin="1450,206,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="437" Height="108" VerticalAlignment="Top" Click="btn_ModificaAtleta_Click"/>
-        <Button x:Name="btn_ModificaIstruttore" Content="Modifica Istruttore" Margin="1450,318,0,0" BorderBrush="Black" FontFamily="Bahnschrift SemiBold" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalAlignment="Left" Width="437" Height="108" VerticalAlignment="Top" Click="btn_ModificaIstruttore_Click"/>
-        <Label x:Name="lbl4_Copia2" Content="Tesserati" Margin="1433,102,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="465" Height="70" VerticalAlignment="Top"/>
-        <Label x:Name="lbl4_Copia3" Content="Associazione" Margin="1076,102,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="352" Height="70" VerticalAlignment="Top"/>
+        <Button x:Name="btn_ModificaAtleta" Content="Modifica Atleta" Margin="937,113,0,0" BorderBrush="Black" FontSize="24" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" Height="84" VerticalAlignment="Top" Click="btn_ModificaAtleta_Click" HorizontalAlignment="Left" Width="297"/>
+        <Button x:Name="btn_ModificaIstruttore" Content="Modifica Istruttore" Margin="937,200,0,0" BorderBrush="Black" FontFamily="Bahnschrift SemiBold" FontSize="24" BorderThickness="3,3,3,3" Background="#FFDC8301" Height="83" VerticalAlignment="Top" Click="btn_ModificaIstruttore_Click" HorizontalAlignment="Left" Width="297"/>
+        <Label x:Name="lbl4_Copia2" Content="Tesserati" Margin="926,33,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" Height="54" VerticalAlignment="Top" HorizontalAlignment="Left" Width="315"/>
+        <Label x:Name="lbl4_Copia3" Content="Associazione" Margin="684,33,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" Height="54" VerticalAlignment="Top" HorizontalAlignment="Left" Width="238"/>
         <Label x:Name="lblInfo" Content="Info Tesserato" Margin="368,99,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="304" Height="70" VerticalAlignment="Top"/>
         <Label x:Name="lbl5" Content="" Margin="380,192,0,42" FontSize="24" BorderThickness="3,3,3,3" Background="{x:Null}" HorizontalAlignment="Left" Width="280"/>
-        <Button x:Name="btn_ModificaSpecialiàAssociazione" Content="Modifica Specialità" Margin="1092,206,0,0" BorderBrush="Black" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="322" Height="108" VerticalAlignment="Top" Click="btn_ModificaSpecialiàAssociazione_Click"/>
+        <Button x:Name="btn_ModificaSpecialiàAssociazione" Content="Modifica Specialità" Margin="695,113,0,0" BorderBrush="Black" FontSize="24" BorderThickness="3,3,3,3" Background="#FFDC8301" FontFamily="Bahnschrift SemiBold" Height="84" VerticalAlignment="Top" Click="btn_ModificaSpecialiàAssociazione_Click" HorizontalAlignment="Left" Width="215"/>
         <Label x:Name="lblNome" Content="Associazione" Margin="22,24,0,0" FontSize="36" BorderBrush="Black" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalContentAlignment="Center" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Left" Width="648" Height="70" VerticalAlignment="Top"/>
-        <Button x:Name="btn_ModificaAmministratore" Content="Modifica Amministratore" Margin="1450,432,0,0" BorderBrush="Black" FontFamily="Bahnschrift SemiBold" FontSize="36" BorderThickness="3,3,3,3" Background="#FFDC8301" HorizontalAlignment="Left" Width="437" Height="108" VerticalAlignment="Top" Click="btn_ModificaAmministratore_Click"/>
+        <Button x:Name="btn_ModificaAmministratore" Content="Modifica Amministratore" Margin="937,288,0,0" BorderBrush="Black" FontFamily="Bahnschrift SemiBold" FontSize="24" BorderThickness="3,3,3,3" Background="#FFDC8301" Height="83" VerticalAlignment="Top" Click="btn_ModificaAmministratore_Click" HorizontalAlignment="Left" Width="297"/>
 
     </Grid>
 </Window>

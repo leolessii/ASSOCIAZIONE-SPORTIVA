@@ -93,12 +93,14 @@ namespace WpfAssociazione
         private void btn_ConfermaIscrizione_Click(object sender, RoutedEventArgs e)
         {
             DateOnly anno = DateOnly.FromDateTime(Convert.ToDateTime(DatePicker.SelectedDate));
-            counter += 1;
-            Tessera t = new Tessera(counter);
+            counter ++;
+            Tessera t = new Tessera("AA"+counter.ToString());
             Atleta a = new Atleta(txtNome.Text, txtCognome.Text, txtNumerotelefono.Text, anno, t);
             associazione.Tesserati.Add(a);
             dgAtleti.ItemsSource = null;
             dgAtleti.ItemsSource = associazione.RestituisciAtleti();
+            Serializzatore se = new Serializzatore();
+            se.ScriviAtleti(Formato.Json, a);
         }
 
         private void btn_AggiungiCertificato_Click(object sender, RoutedEventArgs e)
@@ -152,7 +154,7 @@ namespace WpfAssociazione
         private void btn_InviaDati_Click(object sender, RoutedEventArgs e)
         {
             Serializzatore s = new Serializzatore();
-            s.ScriviAtleti(Formato.Xaml, associazione);
+            s.InviaDatiAtleti(associazione);
         }
     }
 }

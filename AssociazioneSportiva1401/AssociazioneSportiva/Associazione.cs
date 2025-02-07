@@ -78,7 +78,7 @@ namespace AssociazioneSportiva
             Tesserato? tesseratoCercato = null;
             foreach (Tesserato t in _tesserati)
             {
-                if (t.Tessera.Code == id) tesseratoCercato = t;
+                if (t.Tessera.Code == id.ToString()) tesseratoCercato = t;
                 break;
             }
             if (tesseratoCercato == null) throw new ArgumentNullException("Tesserato non trovato");

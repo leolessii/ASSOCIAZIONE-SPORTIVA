@@ -78,17 +78,14 @@ namespace WpfAssociazione
             {
                 Deserializzatore d = new Deserializzatore();
                 List<Atleta>? atleti = d.LeggiAtleti();
-                if(atleti != null)
+                foreach(Atleta a in atleti)
                 {
-                    for(int i = 0; i < atleti.Count; i++)
-                    {
-                        associazione.Tesserati.Add(atleti[i]);
-                    }
+                    associazione.Tesserati.Add(a);
                 }
             }
             catch (Exception ex)
             {
-             
+                System.Windows.Forms.MessageBox.Show(ex.Message);
             }
         }
         private void ScriviImpostazioni()

@@ -8,10 +8,10 @@
         Title="MainWindow" Height="1080" Width="1920">
     <Grid Background="#FF232323">
         <Label x:Name="lbl1" Content="Gestione Associazione Sportiva" Margin="0,47,0,0" FontSize="72" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Center" Width="1036" Height="84" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFF79300"/>
-        <Label x:Name="lbl2" Content="Inserire Il Nome Dell'associazione" Margin="0,221,0,0" FontSize="44" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Center" Width="632" Height="84" VerticalAlignment="Top" Foreground="#FFF79300"/>
+        <Label x:Name="lbl2" Content="Inserire Il Nome Dell'associazione" Margin="0,221,0,0" FontSize="44" FontFamily="Bahnschrift SemiBold" HorizontalAlignment="Center" Width="632" Height="84" VerticalAlignment="Top" Foreground="White"/>
         <TextBox x:Name="txtNome" Margin="0,310,0,0" TextWrapping="Wrap" Text="Nome" FontSize="40" Background="#FFF79300" BorderBrush="Black" TextAlignment="Center" FontFamily="Bahnschrift SemiBold"  GotFocus="txtNome_GotFocus" HorizontalAlignment="Center" Width="654" Height="62" VerticalAlignment="Top" BorderThickness="3,3,3,3"/>
         <Button x:Name="btn_CreaAssociazione" Content="Crea Associazione" HorizontalAlignment="Center" Height="124" VerticalAlignment="Top" Width="472" Background="#FFF79300" BorderBrush="Black" FontSize="40" FontFamily="Bahnschrift SemiBold" Click="btn_CreaAssociazione_Click" Margin="0,576,0,0" BorderThickness="3,3,3,3"/>
-        <Label x:Name="lbl3" Content="Inserire Quota Associativa" Margin="644,398,0,0" FontSize="44" FontFamily="Bahnschrift SemiBold" HorizontalContentAlignment="Center" Height="84" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632" Foreground="#FFF79300"/>
+        <Label x:Name="lbl3" Content="Inserire Quota Associativa" Margin="644,398,0,0" FontSize="44" FontFamily="Bahnschrift SemiBold" HorizontalContentAlignment="Center" Height="84" VerticalAlignment="Top" HorizontalAlignment="Left" Width="632" Foreground="White"/>
         <TextBox x:Name="txtQuota" Margin="633,487,0,0" TextWrapping="Wrap" Text="Quota" FontSize="40" Background="#FFF79300" BorderBrush="Black" TextAlignment="Center" FontFamily="Bahnschrift SemiBold" GotFocus="txtQuota_GotFocus" Height="62" VerticalAlignment="Top" HorizontalAlignment="Left" Width="654" BorderThickness="3,3,3,3"/>
 
     </Grid>

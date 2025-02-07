@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<associazione nome="Leonardo_Lessi">
+  <Atleta IdTessera="AA0">
+    <Nome>a</Nome>
+    <Cognome>a</Cognome>
+    <Data_Nascita>11/02/2025</Data_Nascita>
+    <Data_Rinnovo>07/02/2025</Data_Rinnovo>
+  </Atleta>
+</associazione>

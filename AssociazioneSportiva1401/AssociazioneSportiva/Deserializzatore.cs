@@ -11,12 +11,21 @@ namespace AssociazioneSportiva
     {
         public List<Atleta>? LeggiAtleti()
         {
-            if (File.Exists("Atleti.xml"))
+            if (File.Exists("atleti.xml"))
             {
                 string text;
                 StreamReader sr = new StreamReader("Atleti.xml");
                 XmlSerializer xmls = new XmlSerializer(typeof(Atleta));
                 List<Atleta> dati = (List<Atleta>)xmls.Deserialize(sr)!;
+                return dati;
+            }
+            else if(File.Exists("atleti.json"))
+            {
+                string text;
+                StreamReader sr = new StreamReader("atleti.json");
+                text = sr.ReadToEnd();
+                sr.Close();
+                List<Atleta>? dati = JsonSerializer.Deserialize<List<Atleta>>(text);
                 return dati;
             }
             return null;
